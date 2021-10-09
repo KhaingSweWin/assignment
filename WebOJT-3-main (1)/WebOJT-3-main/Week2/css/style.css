@@ -1,0 +1,36 @@
+#firstRow{
+    background-color:#b998c2;
+}
+
+#firstTheme{
+    vertical-align: top;
+    background-color:#f8e1fe;
+    color: red;
+}
+
+#secondTheme{
+    vertical-align: top;
+    height: 200px;
+    background-color: #f3cffc;
+    color: brown;
+}
+
+#firstParagraph{
+    color: red !important;
+}
+
+#secondParagraph{
+    color: rgb(50, 211, 29) !important;
+}
+
+#thirdParagraph{
+    color: rgb(18, 40, 236) !important;
+}
+
+a{
+    color: rgb(189, 107, 162);
+}
+
+div.post{
+    background-color: red;
+}

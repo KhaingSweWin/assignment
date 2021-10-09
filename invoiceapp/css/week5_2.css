@@ -1,0 +1,39 @@
+.noti{
+    position:absolute;
+    top:-5px;
+    left:10px;
+    width:25px;
+    height:25px;
+}
+.notibox{
+    width:600px !important;
+    position:absolute !important;
+    left:-550px !important;
+    
+}
+.notidrop{
+    position:relative;
+}
+.notibox::before{
+    content:"";    
+    border:10px brown solid;
+    border-color:transparent transparent brown transparent;
+    position:absolute;
+    right:20px;
+    top:-20px;
+}
+.slide1{
+    height:300px;
+    width:100%;
+    background: linear-gradient(130deg,#0085ca 0,#0085ca 30%,#78be20 100%);
+}
+.true{
+    background-color: green;
+    width:200px;
+    height:300px;
+}
+.false{
+    background-color: red;
+    width:300px;
+    height:200px;
+}

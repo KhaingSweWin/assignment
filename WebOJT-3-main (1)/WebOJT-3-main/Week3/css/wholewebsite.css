@@ -1,0 +1,611 @@
+* {
+  margin: 0px;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  height: 174px;
+  background-color: rgb(255, 215, 0);
+}
+
+header .container {
+  margin: auto;
+  width: 60%;
+  height: 100%;
+}
+
+header .container .row {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.row .first-row {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-row .middle ul,
+.unorder-list ul {
+  list-style-type: none;
+}
+
+.first-row .middle ul li,
+.unorder-list ul li {
+  float: left;
+  padding: 0.5rem;
+}
+
+.first-row .middle ul li a,
+.unorder-list ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.first-row .middle ul li a:hover {
+  color: rgb(2, 44, 67);
+}
+
+.unorder-list ul li a {
+  font-size: 12px;
+  text-decoration: underline;
+}
+.unorder-list {
+  position: absolute;
+  bottom: -5px;
+  left: 235px;
+}
+
+.first-row .left {
+  font-size: 30px;
+}
+
+.first-row .right ul {
+  list-style-type: none;
+}
+
+.first-row .right ul li {
+  float: left;
+  padding: 0.5rem;
+}
+
+.first-row .right ul li a {
+  text-decoration: none;
+  color: rgb(2, 44, 67);
+}
+
+.row .second-row {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.second-row .left {
+  position: absolute;
+  left: 80px;
+}
+
+.second-row .middle #add {
+  padding-left: 10px;
+  position: absolute;
+  left: 240px;
+  bottom: 23px;
+  width: 460px;
+  height: 40px;
+  border: 1px solid #f5f5f5;
+  font-size: 13px;
+  color: gray;
+  outline: 0;
+  border-radius: 10px;
+}
+
+.second-row .right button {
+  color: white;
+  height: 40px;
+  width: 120px;
+  outline: 0;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(2, 44, 67);
+}
+
+ul li a:hover {
+  color: rgb(2, 44, 67);
+}
+
+section {
+  width: 100%;
+  height: 52px;
+  background-color: rgb(7, 60, 88);
+}
+
+section .container {
+  margin: auto;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .container .row {
+  width: 100%;
+  height: 70%;
+}
+section .container .row ul {
+  list-style-type: none;
+}
+
+section .container .row ul li {
+  float: left;
+  padding: 0.3rem;
+}
+
+section .container .row ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+section .container .row ul li :hover {
+  color: rgb(255, 215, 0);
+}
+
+.banner {
+  background-color: rgb(2, 44, 67);
+  width: 100%;
+  height: 500px;
+}
+
+.banner .row {
+  position: relative;
+  margin: auto;
+  width: 60%;
+  height: 100%;
+  display: flex;
+}
+
+.banner .row .categories {
+  position: absolute;
+  width: 90%;
+  height: 140px;
+  left: 50px;
+  background-color: white;
+  bottom: -50px;
+  border-radius: 100px;
+  box-shadow: 2px 3px #707070;
+  z-index: 1;
+}
+
+.banner .row .categories .row {
+  width: 100%;
+  border-radius: 100px;
+  height: 100%;
+  position: relative;
+}
+
+.banner .row .categories .row p {
+  position: absolute;
+  left: 150px;
+  color: black;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.banner .row .categories .row .icon-container {
+  position: absolute;
+  width: 90%;
+  height: 60%;
+  left: 40px;
+  bottom: 25px;
+  display: flex;
+}
+
+.banner .row .categories .row .icon-container .icon {
+  cursor: pointer;
+  padding: 1rem;
+}
+.banner .row .categories .row .icon-container .icon .circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 1px solid rgb(255, 215, 0);
+}
+
+.banner .row .categories .row .icon-container .icon .circle:hover {
+  background-color: rgb(255, 215, 0);
+}
+
+.banner .row .column1 {
+  width: 50%;
+  height: 100%;
+}
+
+.banner .row .column1 .text {
+  margin-top: 150px;
+  font-size: 30px;
+  color: white;
+  line-height: 40px;
+}
+
+.banner .row .column1 .text button {
+  font-size: 18px;
+  color: rgb(2, 44, 67);
+  height: 35px;
+  width: 120px;
+  outline: 0;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(255, 215, 0);
+}
+
+.banner .row .column2 {
+  width: 50%;
+  height: 100%;
+}
+
+.banner .row .column2 .circle {
+  margin-top: 50px;
+}
+.banner .row .column2 .circle img {
+  width: 400px;
+}
+
+.best-offers {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+
+.best-offers .container {
+  width: 60%;
+  height: 100%;
+}
+
+.best-offers .container .first-row {
+  width: 100%;
+  height: 40%;
+  position: relative;
+}
+
+.best-offers .container .first-row .text {
+  position: absolute;
+  bottom: 10px;
+}
+.best-offers .container .second-row {
+  position: relative;
+  width: 100%;
+  height: 60%;
+}
+
+.best-offers .container .second-row .first {
+  position: absolute;
+  width: 30%;
+  height: 75%;
+}
+
+.best-offers .container .second-row .first .image {
+  width: 100%;
+  height: 70%;
+}
+.best-offers .container .second-row .second .image {
+  width: 100%;
+  height: 70%;
+}
+.best-offers .container .second-row .third .image {
+  width: 100%;
+  height: 70%;
+}
+
+.best-offers .container .second-row .first .text {
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.best-offers .container .second-row .second .text {
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.best-offers .container .second-row .third .text {
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.best-offers .container .second-row .second {
+  position: absolute;
+  width: 30%;
+  height: 75%;
+  left: 35%;
+}
+.best-offers .container .second-row .third {
+  position: absolute;
+  width: 30%;
+  height: 75%;
+  left: 70%;
+}
+
+.cleaning-services {
+  width: 100%;
+  height: 500px;
+}
+
+.cleaning-services .container .heading {
+  position: absolute;
+  top: 5px;
+}
+
+.cleaning-services .container .btn {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  background: rgb(255, 215, 0);
+  border-radius: 40px;
+  bottom: 30px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+.cleaning-services .container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cleaning-services .container .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 60%;
+}
+
+.cleaning-services .container .row .column {
+  width: 25%;
+  height: 100%;
+}
+
+.cleaning-services .container .row .column .header {
+  width: 100%;
+  height: 10%;
+  font-weight: 900;
+}
+
+.cleaning-services .container .row .column .main {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cleaning-services .container .row .column .main .image {
+  position: relative;
+  background-color: rgb(2, 44, 67);
+  width: 95%;
+  height: 95%;
+}
+.cleaning-services .container .row .column .main .image .promotion {
+  position: absolute;
+  width: 70px;
+  height: 35px;
+  background: rgb(255, 215, 0);
+  border-radius: 40px;
+  left: 120px;
+  bottom: 4px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+}
+.cleaning-services .container .row .column .foot {
+  width: 100%;
+  height: 40%;
+}
+
+.cleaning-services .container .row .column .foot p {
+  line-height: 24px;
+  letter-spacing: 1px;
+  padding-left: 7px;
+}
+
+.covid-19 {
+  width: 100%;
+  height: 300px;
+  background-color: gainsboro;
+}
+
+.covid-19 .container {
+  width: 100%;
+  height: 100%;
+  background-color: green;
+}
+
+.covid-19 .container .row {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.covid-19 .container .row .column1 {
+  background-color: rgb(2, 44, 67);
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.covid-19 .container .row .column1 .text p {
+  line-height: 30px;
+}
+
+.covid-19 .container .row .column1 .text {
+  position: absolute;
+  top: 120px;
+  right: 20px;
+}
+.covid-19 .container .row .column1 .icon-container {
+  top: 120px;
+  left: 200px;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.covid-19 .container .row .column2 {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background-color: rgb(255, 215, 0);
+}
+
+.covid-19 .container .row .column2 .text p {
+  line-height: 30px;
+}
+
+.covid-19 .container .row .column2 .text {
+  position: absolute;
+  top: 120px;
+  right: 120px;
+}
+
+.covid-19 .container .row .column2 .icon-container {
+  top: 120px;
+  left: 100px;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose-us {
+  width: 100%;
+  height: 400px;
+}
+
+.choose-us .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+.choose-us .container .heading {
+  position: absolute;
+  top: 30px;
+}
+.choose-us .container .row {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.choose-us .container .row .column {
+  width: 30%;
+  height: 100%;
+  position: relative;
+}
+
+.choose-us .container .row .column .icon-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: rgb(255, 215, 0);
+  top: 20px;
+  left: 80px;
+}
+
+.choose-us .container .row .column .text {
+  position: absolute;
+  bottom: 20px;
+}
+
+.choose-us .container .row .column .text b {
+  padding-left: 80px;
+  line-height: 40px;
+}
+.choose-us .container .row .column .text p {
+  line-height: 19px;
+  letter-spacing: 2px;
+}
+
+.footer {
+  margin-top: -4px;
+  background-color: rgb(7, 60, 88);
+  width: 100%;
+  height: 500px;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.footer .container .row {
+  width: 60%;
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer .container .row .column1 {
+  height: 100%;
+  width: 40%;
+}
+
+.footer .container .row .column2 {
+  height: 100%;
+  width: 20%;
+}
+
+.footer .container .row .column3 {
+  height: 100%;
+  width: 20%;
+}
+
+.footer .container .row .column4 {
+  height: 100%;
+  width: 20%;
+}
+li{
+  padding: 0.5rem;
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+}

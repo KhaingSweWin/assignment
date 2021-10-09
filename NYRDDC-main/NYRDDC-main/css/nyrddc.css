@@ -1,0 +1,81 @@
+.navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  color: black;
+}
+
+.nav-item {
+  padding: 0.4rem;
+}
+.navbar {
+  background-color: rgb(243, 231, 138);
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  cursor: pointer;
+  color: white;
+}
+
+#dphkl {
+  margin-top: -1px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-weight: bolder;
+  color: black;
+}
+
+#hkl li a {
+  text-decoration: none;
+  color: black;
+}
+
+#custom-indicator {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(65, 102, 217);
+  border-radius: 100%;
+}
+
+#hkl li a:hover {
+  color: rgb(243, 231, 138);
+}
+
+#circle {
+  margin: 2px;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: rgb(65, 102, 217);
+  border: 2px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#welcomeMessage::after {
+  content: "";
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  border: solid rgb(238, 226, 138);
+  width: 100px;
+  height: 1px;
+}
+
+.programsCard {
+  background-color: rgb(238, 226, 138);
+}
+
+.programsCard .card-title {
+  background: -webkit-linear-gradient(#e66465, #9198e5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#header::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  border:  solid rgb(238, 226, 138);
+  width: 100px;
+  height: 1px;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <section>
+            <form>
+                <label for="firstName">FirstName::</label>
+                <input type="text" name="firstName" required placeholder="Enter FirstName ....."/><br/>
+
+                <label for="lastName">lastName::</label>
+                <input type="text" name="lastName" required placeholder="Enter lastName ....."/><br/>
+
+                <label for="password">Password::</label>
+                <input type="password" name="password" required placeholder="Enter Password....."/>
+                <br/>
+
+
+                <label for="gender">Gender::</label>
+                <input type="radio" value="Male" name="gender"/>Male
+                <input type="radio" value="Female" name="gender" checked/>Female
+
+                <br/>
+                <label for="cars">Preferred Language::</label>
+                <select name="cars" id="cars">
+                    <option value="English">English</option>
+                    <option value="Myanmar">Myanmar</option>
+                </select>
+
+                <br/>
+                <div>
+                    <label for="Country">Country</label>
+                    <select name="Country" id="Country">
+                        <option value="English">USA</option>
+                        <option value="Myanmar">Myanmar</option>
+                        <option value="UK">UK</option>
+                        <option value="Singapore">Singapore</option>
+                    </select>
+                </div>
+
+                <input type="submit" value="Submit"/>
+                <button type="button">Reset</button>
+                <button type="button">Cancel</button>
+
+                <br/>
+                <br/>
+                
+                <input list="browsers" name="browser" id="browser" placeholder="Choose One">
+                <datalist id="browsers">
+                    <option value="USA">USA</option>
+                    <option value="Myanmar">Myanmar</option>
+                    <option value="UK">UK</option>
+                    <option value="Singapore">Singapore</option>
+                </datalist>
+
+                <input type="datetime-local" name="calendar"/>
+
+                <br/>
+                <h1>The iframe element</h1>
+
+                <iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials">
+                    
+                </iframe>
+            </form>
+
+            
+        </section>
+        <script src="" async defer></script>
+    </body>
+</html>

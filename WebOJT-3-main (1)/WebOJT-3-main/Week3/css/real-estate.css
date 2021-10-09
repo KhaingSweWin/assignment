@@ -1,0 +1,989 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 280px) {
+  nav {
+    width: 100%;
+    height: 100px;
+  }
+
+  nav .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav .container .row {
+    width: 95%;
+    height: 90%;
+    position: relative;
+  }
+
+  nav .container .row .logo {
+    position: absolute;
+    font-size: 25px;
+    font-family: "Courier New", Courier, monospace;
+    color: rgb(34, 137, 255);
+    top: 15px;
+  }
+
+  nav .container .row .item {
+    display: none;
+  }
+
+  nav .container .row .right {
+    top: 20px;
+    width: 350px;
+    right: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  nav .container .row .right .search-container {
+    display: none;
+  }
+  nav .container .row .right .noti-container {
+    display: none;
+  }
+  nav .container .row .right button {
+    color: white;
+    height: 30px;
+    width: 80px;
+    outline: 0;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(34, 137, 255);
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+
+  .banner {
+    width: 100%;
+    height: 400px;
+  }
+
+  .banner .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .banner .container .row {
+    width: 95%;
+    height: 99%;
+    position: relative;
+  }
+
+  .banner .container .row .image {
+    position: absolute;
+    border-radius: 50px;
+    right: 0px;
+    background-color: rgb(1, 58, 113);
+    width: 76%;
+    height: 85%;
+  }
+
+  .banner .container .row .find-dream {
+    z-index: 3;
+    position: absolute;
+    border-radius: 0px 50px 50px 0px;
+    width: 85%;
+    height: 40%;
+    background-color: white;
+    top: 70px;
+    box-shadow: 2px 3px rgb(1, 58, 113);
+  }
+
+  .banner .container .row .find-dream p {
+    font-size: 20px;
+  }
+
+  #banner-btn:hover {
+    background-color: rgb(34, 137, 255);
+    color: white;
+  }
+
+  #banner-btn {
+    display: none;
+    font-size: larger;
+    color: white;
+    height: 30px;
+    width: 50px;
+    outline: 0;
+    border-radius: 40px;
+    border: none;
+    color: rgb(1, 58, 113);
+    background-color: white;
+    box-shadow: 2px 3px rgb(1, 58, 113);
+  }
+
+  .banner .container .row .banner-btn-container {
+    position: absolute;
+    top: 250px;
+    left: 80px;
+  }
+
+  .banner .container .row img {
+    display: none;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 70px;
+    border: 1px solid black;
+    width: auto;
+    height: 100px;
+    box-shadow: 2px 3px rgb(1, 58, 113);
+  }
+
+  .bread {
+    width: 100%;
+    height: 800px;
+  }
+  .bread .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .bread .container .row {
+    height: 95%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .bread .container .row .column {
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    width: 90%;
+    height: 95%;
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+
+  .bread .container .row .column .image {
+    width: 80%;
+    position: absolute;
+    height: 80%;
+    background-color: rgb(1, 58, 113);
+    left: 30px;
+    top: 10px;
+    border-radius: 20px;
+  }
+
+  .bread .container .row .column h3 {
+    position: absolute;
+    bottom: 0px;
+    left: 90px;
+  }
+
+  .bread .container .row .column .icon-container {
+    background-color: rgb(254, 120, 71);
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bread .container .button-container {
+    position: absolute;
+    bottom: 30px;
+  }
+
+  .bread .container button {
+    font-size: 20px;
+    color: white;
+    height: 60px;
+    width: 350px;
+    outline: 0;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(1, 58, 113);
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  nav {
+    width: 100%;
+    height: 100px;
+  }
+
+  nav .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav .container .row {
+    width: 95%;
+    height: 90%;
+    position: relative;
+  }
+
+  nav .container .row .logo {
+    position: absolute;
+    font-size: 30px;
+    font-family: "Courier New", Courier, monospace;
+    color: rgb(34, 137, 255);
+    top: 20px;
+  }
+
+  nav .container .row .item {
+    display: none;
+  }
+
+  nav .container .row .right {
+    top: 20px;
+    width: 350px;
+    right: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  nav .container .row .right .search-container {
+    display: none;
+  }
+  nav .container .row .right .noti-container {
+    display: none;
+  }
+  nav .container .row .right button {
+    color: white;
+    height: 40px;
+    width: 80px;
+    outline: 0;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(34, 137, 255);
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+
+  .banner {
+    width: 100%;
+    height: 400px;
+  }
+
+  .banner .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .banner .container .row {
+    width: 95%;
+    height: 99%;
+    position: relative;
+  }
+
+  .banner .container .row .image {
+    position: absolute;
+    border-radius: 50px;
+    right: 10px;
+    background-color: rgb(1, 58, 113);
+    width: 76%;
+    height: 95%;
+  }
+
+  .banner .container .row .find-dream {
+    z-index: 3;
+    position: absolute;
+    border-radius: 0px 50px 50px 0px;
+    width: 65%;
+    height: 40%;
+    background-color: white;
+    top: 90px;
+    box-shadow: 2px 3px rgb(1, 58, 113);
+  }
+
+  .banner .container .row .find-dream p {
+    font-size: 20px;
+  }
+
+  #banner-btn:hover {
+    background-color: rgb(34, 137, 255);
+    color: white;
+  }
+
+  #banner-btn {
+    font-size: larger;
+    color: white;
+    height: 40px;
+    width: 60px;
+    outline: 0;
+    border-radius: 40px;
+    border: none;
+    color: rgb(1, 58, 113);
+    background-color: white;
+    box-shadow: 2px 3px rgb(1, 58, 113);
+  }
+
+  .banner .container .row .banner-btn-container {
+    position: absolute;
+    top: 300px;
+    left: 80px;
+  }
+
+  .banner .container .row img {
+    display: none;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 70px;
+    border: 1px solid black;
+    width: auto;
+    height: 100px;
+    box-shadow: 2px 3px rgb(1, 58, 113);
+  }
+
+  .bread {
+    width: 100%;
+    height: 800px;
+  }
+  .bread .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .bread .container .row {
+    height: 95%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .bread .container .row .column {
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    width: 90%;
+    height: 95%;
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+
+  .bread .container .row .column .image {
+    width: 80%;
+    position: absolute;
+    height: 80%;
+    background-color: rgb(1, 58, 113);
+    left: 30px;
+    top: 10px;
+    border-radius: 20px;
+  }
+
+  .bread .container .row .column h3 {
+    position: absolute;
+    bottom: 0px;
+    left: 90px;
+  }
+
+  .bread .container .row .column .icon-container {
+    background-color: rgb(254, 120, 71);
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bread .container .button-container {
+    position: absolute;
+    bottom: 30px;
+  }
+
+  .bread .container button {
+    font-size: 20px;
+    color: white;
+    height: 60px;
+    width: 350px;
+    outline: 0;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(1, 58, 113);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  nav {
+    width: 100%;
+    height: 100px;
+  }
+
+  nav .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav .container .row {
+    width: 95%;
+    height: 90%;
+    position: relative;
+  }
+
+  nav .container .row .logo {
+    position: absolute;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    color: rgb(34, 137, 255);
+    top: 10px;
+  }
+
+  nav .container .row .item {
+    display: none;
+    top: 20px;
+    position: absolute;
+    left: 400px;
+  }
+
+  nav .container .row .item ul {
+    list-style-type: none;
+  }
+
+  nav .container .row .item ul li {
+    float: left;
+    padding: 1rem;
+  }
+
+  nav .container .row .item ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
+  nav .container .row .item ul li a:hover {
+    color: rgb(34, 137, 255);
+  }
+
+  nav .container .row .right {
+    top: 20px;
+    width: 350px;
+    right: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  nav .container .row .right .search-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px dashed black;
+    margin-right: 20px;
+  }
+  nav .container .row .right .noti-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgb(232, 235, 244);
+    margin-right: 20px;
+  }
+  nav .container .row .right button {
+    color: white;
+    height: 30px;
+    width: 60px;
+    outline: 0;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(34, 137, 255);
+    margin-right: 20px;
+  }
+  .banner {
+    width: 100%;
+    height: 400px;
+  }
+
+  .banner .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .banner .container .row {
+    width: 95%;
+    height: 99%;
+    position: relative;
+  }
+
+  .banner .container .row .image {
+    position: absolute;
+    border-radius: 50px;
+    right: 10px;
+    background-color: rgb(1, 58, 113);
+    width: 76%;
+    height: 95%;
+  }
+
+  .banner .container .row .find-dream {
+    z-index: 3;
+    position: absolute;
+    border-radius: 0px 50px 50px 0px;
+    width: 45%;
+    height: 50%;
+    background-color: white;
+    top: 90px;
+    box-shadow: 2px 3px rgb(1, 58, 113);
+  }
+
+  .banner .container .row .find-dream p {
+    font-size: 40px;
+  }
+
+  .banner .container .row .find-dream b {
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+
+  #banner-btn:hover {
+    background-color: rgb(34, 137, 255);
+    color: white;
+  }
+
+  #banner-btn {
+    font-size: larger;
+    color: white;
+    height: 40px;
+    width: 70px;
+    outline: 0;
+    border-radius: 40px;
+    border: none;
+    color: rgb(1, 58, 113);
+    background-color: white;
+    box-shadow: 2px 3px rgb(1, 58, 113);
+  }
+
+  .banner .container .row .banner-btn-container {
+    position: absolute;
+    left: 250px;
+    top: 310px;
+  }
+
+  .banner .container .row img {
+    border-radius: 20px;
+    position: absolute;
+    bottom: 70px;
+    border: 1px solid black;
+    width: 90%;
+    height: 100px;
+    box-shadow: 2px 3px rgb(1, 58, 113);
+  }
+
+  .bread {
+    width: 100%;
+    height: 400px;
+  }
+  .bread .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .bread .container .row {
+    height: 90%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bread .container .row #cl1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: white;
+    width: 45%;
+    height: 45%;
+  }
+  .bread .container .row #cl2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: white;
+    width: 45%;
+    height: 45%;
+  }
+
+  .bread .container .row #cl3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    width: 45%;
+    height: 45%;
+  }
+  .bread .container .row #cl4 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    width: 45%;
+    height: 45%;
+  }
+
+  .bread .container .row .column h3 {
+    left: 80px;
+  }
+
+  .bread .container .button-container {
+    position: absolute;
+    bottom: 30px;
+  }
+
+  .bread .container button {
+    font-size: 20px;
+    color: white;
+    height: 60px;
+    width: 350px;
+    outline: 0;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(1, 58, 113);
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  nav {
+    width: 100%;
+    height: 100px;
+  }
+
+  nav .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav .container .row {
+    width: 95%;
+    height: 90%;
+    position: relative;
+  }
+
+  nav .container .row .logo {
+    position: absolute;
+    font-size: 40px;
+    font-family: "Courier New", Courier, monospace;
+    color: rgb(34, 137, 255);
+    top: 10px;
+  }
+
+  nav .container .row .item {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+  }
+
+  nav .container .row .item ul {
+    list-style-type: none;
+  }
+
+  nav .container .row .item ul li {
+    float: left;
+    padding: 1rem;
+  }
+
+  nav .container .row .item ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+
+  nav .container .row .item ul li a:hover {
+    color: rgb(34, 137, 255);
+  }
+
+  nav .container .row .right {
+    top: 20px;
+    width: 350px;
+    right: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav .container .row .right .search-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px dashed black;
+  }
+  nav .container .row .right .noti-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgb(232, 235, 244);
+  }
+  nav .container .row .right button {
+    color: white;
+    height: 40px;
+    width: 120px;
+    outline: 0;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(34, 137, 255);
+  }
+
+  .banner {
+    width: 100%;
+    height: 700px;
+  }
+
+  .banner .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .banner .container .row {
+    width: 95%;
+    height: 99%;
+    position: relative;
+  }
+
+  .banner .container .row .image {
+    position: absolute;
+    border-radius: 50px;
+    right: 10px;
+    background-color: rgb(1, 58, 113);
+    width: 76%;
+    height: 95%;
+  }
+
+  .banner .container .row .find-dream {
+    z-index: 3;
+    position: absolute;
+    border-radius: 0px 50px 50px 0px;
+    width: 35%;
+    height: 40%;
+    background-color: white;
+    top: 90px;
+    box-shadow: 2px 3px rgb(1, 58, 113);
+  }
+
+  .banner .container .row .find-dream p {
+    font-size: 70px;
+  }
+
+  #banner-btn:hover {
+    background-color: rgb(34, 137, 255);
+    color: white;
+  }
+
+  #banner-btn {
+    font-size: larger;
+    color: white;
+    height: 40px;
+    width: 90px;
+    outline: 0;
+    border-radius: 40px;
+    border: none;
+    color: rgb(1, 58, 113);
+    background-color: white;
+    box-shadow: 2px 3px rgb(1, 58, 113);
+  }
+
+  .banner .container .row .banner-btn-container {
+    position: absolute;
+    left: 0;
+    top: 430px;
+  }
+
+  .banner .container .row img {
+    border-radius: 20px;
+    position: absolute;
+    bottom: 70px;
+    border: 1px solid black;
+    width: auto;
+    height: 100px;
+    box-shadow: 2px 3px rgb(1, 58, 113);
+  }
+
+  .bread {
+    width: 100%;
+    height: 400px;
+  }
+  .bread .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .bread .container .row {
+    height: 50%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bread .container .row .column {
+    margin: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: 20%;
+    height: 55%;
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+
+  .bread .container .row #cl1 {
+    position: absolute;
+    left: 0;
+    top: 90px;
+    background-color: white;
+    width: 20%;
+    height: 45%;
+  }
+
+  .bread .container .row #cl2 {
+    left: 26%;
+    top: 90px;
+    width: 20%;
+  }
+  .bread .container .row #cl3 {
+    left: 52%;
+    top: 90px;
+    width: 20%;
+  }
+  .bread .container .row #cl4 {
+    left: 77%;
+    top: 90px;
+    width: 20%;
+  }
+
+  .bread .container .row .column .image {
+    width: 80%;
+    position: absolute;
+    height: 80%;
+    background-color: rgb(1, 58, 113);
+    left: 25px;
+    top: 10px;
+    border-radius: 20px;
+  }
+
+  .bread .container .row .column h3 {
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+  }
+
+  .bread .container .row .column .icon-container {
+    background-color: rgb(254, 120, 71);
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bread .container .button-container {
+    position: absolute;
+    bottom: 30px;
+  }
+
+  .bread .container button {
+    font-size: 20px;
+    color: white;
+    height: 60px;
+    width: 350px;
+    outline: 0;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(1, 58, 113);
+  }
+
+  .apartment-plan {
+    background-color: red;
+    width: 100%;
+    height: 600px;
+  }
+
+  .apartment-plan .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 247, 250);
+  }
+  .apartment-plan .container .row {
+    width: 95%;
+    height: 90%;
+    display: flex !important;
+    align-items: center !important ;
+    justify-content: space-around !important;
+    background-color: white;
+    box-shadow: inset 0 0 0 2px rgb(255, 255, 255),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+  }
+
+  .apartment-plan .container .row .column1 {
+    height: 90%;
+    width: 35%;
+  }
+
+  .apartment-plan .container .row .column2 {
+    height: 90%;
+    width: 55%;
+    background-color: white;
+  }
+}

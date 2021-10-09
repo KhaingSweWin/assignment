@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+width:100%;
+background-color: black;
+height:50px;
+position:fixed;
+left:0;
+top:0;
+
+}
+nav ul{
+list-style: none;
+
+}
+nav ul li{
+float: left;
+padding:1rem;
+position: relative;
+display: block;
+}
+nav ul li a{
+color:white;
+text-decoration: none;
+text-transform: uppercase;
+}
+nav ul li>a:hover{
+    transition:all ease-in 5s;
+}
+
+nav ul li:hover{
+    background-color: red;
+    
+}
+nav ul li ul{
+    display:none;
+    position:absolute;
+    left:20px;
+    top:50px;
+    background-color:chocolate;
+    min-width: 150px;
+}
+ul>li:hover>ul{
+    display:block;
+    
+    
+    
+}
+ul>li>ul>li{
+    width:150px;
+}
+.banner{
+    background-image: url('../img/bagan_banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.container{
+    width:100%;
+    height: 800px;
+    background-color:green;
+}
+.box{
+    width:200px;
+    height:20%;
+    background-color: yellow;
+    box-shadow: cornflowerblue 30px 15px 20px 5px;
+}

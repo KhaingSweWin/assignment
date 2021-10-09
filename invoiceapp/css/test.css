@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+}
+.banner{
+    background-image: url('../img/image1.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+nav{
+    background-color:blue;
+    width:100%;
+    height: 50px;
+    opacity:0.6;
+   
+    
+}
+nav ul{
+list-style: none;
+}
+nav ul li{
+    
+    float:left;
+    display:block;
+    padding:1rem;
+    position:relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+   
+}
+nav ul>li:hover{
+    background-color: burlywood;
+}
+nav>ul>li>ul{
+    display:none;
+    position:absolute;
+    min-width: 10rem;
+    left:20px;
+    margin-top:1rem;
+    background-color: blue;
+  
+}
+ul>li>ul>li{
+    width:80%;
+    position:relative;
+}
+ul>li:hover>ul{
+    display:block;
+}
+
+ul ul ul{
+    display:none;
+    position:absolute;
+    left:160px;
+    top:50px;
+    background-color: brown;
+    min-width: 10rem;
+    
+}
+ul ul>li:hover ul{
+    display:block;
+}
+
+.blog_container{
+    background-image: url('../img/bagan_banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:400px;
+    margin-top:20px;
+    position: relative;
+}
+.content{
+    width:400px;
+    height:400px;
+    background-color: black;
+    opacity: 0.3;
+}
+.text{
+    padding:20px;
+    color:white;
+    position:absolute;
+    left:0;
+    top:0;
+    width:380px;
+}
+.container{
+    width:100%;
+    height: 800px;
+    background-color:green;
+}

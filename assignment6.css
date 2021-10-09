@@ -1,0 +1,243 @@
+body {
+    /* Algerian */
+    font-family: Monospace;    
+}
+.container{
+    background-color :white;
+}
+.section{
+    margin-bottom: 3px;
+}
+.logo{
+    width: 133px;
+    height: 133px;
+    margin-top: 3px;
+}
+.navbar-text{
+    padding-left: 10px;
+    font-weight: 600;
+}
+.ox{
+    font-weight: 600;
+    font-size: 3em;
+}
+.list-group-item{
+    background-color: #f1f1f1 !important;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: solid 2px rgb(70, 66, 66);
+    margin-top: 3px;
+}
+.list-last{
+    border-right: 0px !important;
+}
+.list-group{
+    float: right !important;
+}
+.input-group{
+    width: 330px;
+    float: right;
+}
+ul.ul_menu:after {
+clear: both;
+display: block;
+content: "";
+}
+
+.li_menu {
+    float: left;
+    border: 0 !important;
+    margin: 0px;
+    padding: 0px 0px 0px 40px;
+}
+
+a {
+display: block;
+font-weight: 900;
+font-size:1em;
+color:#ffb82e !important;
+font-family: monospace; 
+
+}
+.bg-nav{
+    background-color: #0d1d4e;   
+    height: 80px; 
+}
+.slide_img{
+    width: 100%;
+    height: 450px;
+}
+.carousel-control-prev-icon{
+    background-color: black !important;
+    border-radius: 50%;
+}
+.carousel-control-next-icon{
+    background-color: black !important;
+    border-radius: 50%;
+}
+.carousel-indicators .btnslide{
+    background-color: #f5ab18;
+    border-radius: 50%;
+    width:30px !important;
+    height: 30px !important;
+}
+.read-more:after {
+    content: ' \003E';
+    background: #4679BD;
+    border-radius: 50%;
+    display: block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px; /* Adjust for your needs */
+    margin-top: 1px;
+    padding-top: -6px;
+}
+.uni-img{
+    height: 300px;
+    width: 600px ;
+    margin: 4px 4px 3px 4px;
+}
+/* Card Section */
+.card-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-section::before{
+    content: '';
+    position: absolute;
+    top : 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: url('../img/card_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.25;
+}
+.flex-row{
+    margin-bottom: 45px;    
+}
+.flex1{
+    padding: 4px 0px 2px 100px;
+}
+.card img{
+    height: 160px;
+    width: 299px;
+}
+.card-header{
+    color: #e01121;
+    font-weight: bold;
+}
+.card-title{
+    text-align: center;
+}
+.card-body-pro{
+    background-color: #0d1d4e;  
+    color: #f5bd36;
+}
+
+
+/* New and Event */
+.ne-col{
+    margin-top: 90px;   
+}
+.new-event-title{
+    font-size: 3em;
+    font-weight: 800;
+    color: #0d1d4e;
+}
+.ne-seemore{
+    float: right;
+    color: #0d1d4e;
+    font-size: 1em;
+}
+hr{
+    border: 9px solid red;
+    width:30%;
+    border-radius: 3px;
+  }
+.event{
+    height: 360px;
+    width: 499px;
+}
+/* Course */
+.flex-course-div{
+    margin-bottom: 45px;  
+    margin-top: 40px;  
+}
+.flex-course{
+    padding: 34px 0px 2px 100px;    
+    width: 399px;
+}
+.card-title-course{
+    padding: 5px 0px 5px 3px;
+}
+.course{
+    background-color: #0d1d4e;  
+    color: #f5bd36;
+    padding: 23px 0px 23px 0px;
+   
+}
+.course-body{
+    background-color: #0d1d4e; 
+}
+
+.video-row{
+    margin-top: 90px; 
+    text-align: center;
+}
+
+/* Announcements */
+div.background {
+    background: url('../img/ann.jpg');
+    border: 2px solid black;
+    height: 360px;
+    width: 499px;
+  }
+  
+  div.transbox {
+    margin: 30px;
+    background-color: #f5bd36;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    
+  }
+/* Footer */
+.f1>p{
+    float: right;
+}
+.footer-row{
+    background-color: #0d1d4e; 
+    color: #f5bd36;
+    padding-top: 10px;
+}
+
+.more {
+    background: #4679BD;
+    text-decoration:none; /* Remove that ugly underlining */
+    border-radius: 50%;
+    display: block;
+    height: 50px;
+    width: 50px;    
+}
+.more::after {
+    content:"\003E";   /* The code for the arrow : see the reference */
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 30px; /* Adjust for your needs */
+    text-align: center;
+    margin-top: -2px;
+}

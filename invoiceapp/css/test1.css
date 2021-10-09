@@ -1,0 +1,25 @@
+.dialog-icon{
+    background-color: rgb(184, 184, 187) !important;
+    border-radius: 50%;
+    position:absolute;
+    left:0px;
+    top:-130px;
+    }
+    .caroursel-dialog{
+        position: relative;
+    }
+    .dialog-icon-next{
+        background-color: rgb(184, 184, 187) !important;
+        border-radius: 50%;
+        position:absolute;
+        right:0px;
+        
+        }
+        .carousel-dialog-next{
+            position: relative; 
+        }
+         .breadcrumb-item +  .breadcrumb-item::before { 
+            content: ">>"; 
+            font-weight: bold; 
+            color: #000000; 
+          }

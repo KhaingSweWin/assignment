@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+        
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row my-3">
+            <div class="col-md-12">
+                <button class="btn btn-success float-end" id="addrow">Add</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead >
+                        <tr>
+                        <th>Item Name</th>
+                        <th>Price</th>
+                        <th>Qty</th>
+                        <th>Discount</th>
+                        <th>Subtotal</th>
+                        </tr>
+                        
+                    </thead>
+                    <tbody class="rowcontainer">
+
+                    </tbody>
+                    <tfooter>
+                        <tr class="my-5">
+                            
+                            <td colspan="4"><label></label></td>
+                            <td><input class="form-control" type="text" name="total" id="total"></td>
+                        </tr>
+                    </tfooter>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/myinvoice.js"></script>
+</body>
+</html>

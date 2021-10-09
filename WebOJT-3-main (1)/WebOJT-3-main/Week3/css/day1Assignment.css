@@ -1,0 +1,153 @@
+.section {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.image {
+  width: 1170px;
+  height: 100%;
+  background-color: rebeccapurple;
+  background-image: url(../img/bivensfarm1.jpeg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.leftdiv {
+  width: 30%;
+  height: 600px;
+  background-color: rgb(28, 28, 141);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leftdiv > .first {
+  color: white;
+  width: 80%;
+  height: 70%;
+  position: relative;
+  top: -50px;
+  text-align: center;
+  z-index: 3;
+}
+
+.first > .new2 {
+  border: 1px dashed #c8c8c7;
+}
+
+.first > p {
+  font-size: 20px;
+}
+
+.first button {
+  background-color: white;
+  border: none;
+  color: blue;
+  height: 70px;
+}
+
+.main {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  background-color: wheat;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main > .photo1,
+.photo2 {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  position: relative;
+  background-image: url(../img/photo1.png);
+  background-size: 250px 250px;
+}
+
+.photo2 {
+  background-image: url(../img/photo2.png) !important;
+}
+
+.circle {
+  color: white;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.circleChilren {
+  height: 70%;
+  width: 70%;
+}
+
+.academic {
+  color: white;
+  width: 40%;
+  height: 30px;
+  background-color: black;
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.academicChild {
+  height: 80%;
+  width: 80%;
+}
+
+.booking-form-container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/marx.jpg);
+}
+
+.book-form {
+  width: 80%;
+  height: 60px;
+  border: 1px white solid;
+  border-radius: 5px;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.book-form > .inner1 {
+  width: 20%;
+  height: 70%;
+  display: flex;
+}
+
+.inner1 > button {
+  width: 100%;
+  border-radius: 4px solid white;
+}

@@ -1,0 +1,21 @@
+.col-md-6{
+    height:300px;
+}
+.false{
+    background-color: brown;
+    color:white;
+}
+.red{
+    background-color: red;
+}
+.col-md-4{
+    height:400px;
+    background-color: beige;
+    border:red solid 2px;
+}
+.mydiv_hide{
+    display:none;
+}
+.appear{
+    
+}

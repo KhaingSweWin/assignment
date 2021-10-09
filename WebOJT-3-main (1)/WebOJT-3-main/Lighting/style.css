@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-color: #1d2026;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 20px 8%;
+}
+
+nav ul {
+  flex: 1;
+  list-style-type: none;
+  cursor: pointer;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-img {
+  width: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.logo-img {
+  width: 150px;
+}
+
+button {
+  background-color: #efefef;
+  height: 30px;
+  width: 60px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+button span {
+  display: block;
+  background-color: #999;
+  height: 26px;
+  width: 26px;
+  border-radius: 100%;
+  margin-left: 2px;
+  transition: background-color 0.5s, margin-left 0.5s;
+}
+
+.lamp-container {
+  position: absolute;
+  top: 0;
+  left: 22%;
+  width: 200px;
+}
+.lamp {
+  width: 100%;
+}
+.light {
+  position: absolute;
+  top: 97%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: -10px;
+  width: 700px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.active {
+  background-color: green;
+}
+
+.active span{
+    background-color: white;
+    margin-left: 31px;
+}
+
+.on{
+    opacity: 1;
+}

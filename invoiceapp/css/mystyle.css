@@ -1,0 +1,61 @@
+.navbar img{
+    border-radius: 50%;
+}
+.noti{
+   
+    width: 550px;
+    
+    background-color:whitesmoke;
+    position:absolute;
+    top:40px !important;
+    left:-500px !important;
+    }
+    .noti:before{
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 30px;
+    border:10px solid #343A40;
+    border-color:transparent transparent #d1d6db transparent;
+    
+    }
+    .dropdown{
+        position:relative;
+        
+    }
+    .title-line{
+        position:relative;
+        margin-bottom: 25px;
+    }
+    .title-line::before{
+        content:"";
+        background-color: darkblue;
+        width: 10%;
+        height:5px;
+        position:absolute;
+        bottom:-15px;
+        
+    }
+    .notification_count
+{
+
+color: #ffffff;
+font-weight: bold;
+border-radius: 50%;
+width:20px;
+height:20px;
+position: absolute;
+top:-3px;
+left:15px;
+padding-left:2px;
+
+}
+.bell
+{
+    position:relative;
+}
+.slide1{
+    width:100%;
+    height:300px;
+    background-image: linear-gradient(135deg,#43cbff 30%,#9708C1 100%);
+}
